@@ -17,3 +17,4 @@
 
       # 1. arguments (ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 10-vars-preference.yaml -e WISHES="Mornig-from-arg")
       # 2. Task level
+      # 3. variable files
