@@ -5,7 +5,7 @@
     Duration: "120hrs"
   tasks:
   - name: print information
-    vars:
+    vars: #Task level variables
       Course: "Devops"
     ansible.builtin.debug:
       msg: "Hello I am new to {{Course}} but it's deploying wise very powerfull,Duration is {{Duration}}"
