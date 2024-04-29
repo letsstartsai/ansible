@@ -10,7 +10,10 @@
     private: false
   tasks:
   - name: check preference
-    vars:
-      WISHES: "Morning from TASK var"
+    # vars:
+    #   WISHES: "Morning from TASK var"
     ansible.builtin.debug:
       msg: "Hello, Good {{WISHES}}"
+
+      # 1. arguments (ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 10-vars-preference.yaml -e WISHES="Mornig-from-arg")
+      # 2. Task level
