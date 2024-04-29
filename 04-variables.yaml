@@ -1,7 +1,7 @@
 - name: variables
   hosts: localhost
   vars:
-    Course: "Ansible"
+    Course: "Nginx"
     Duration: "120hrs"
   tasks:
   - name: print information
