@@ -1,0 +1,15 @@
+- name: variables
+  hosts: localhost
+  vars:
+    Course: "Nginx"
+    Duration: "120hrs"
+  tasks:
+  - name: print information
+    vars:
+      Course: "Devops"
+    ansible.builtin.debug:
+      msg: "Hello I am new to {{Course}} but it's deploying wise very powerfull,Duration is {{Duration}}"
+
+  - name: print information
+    ansible.builtin.debug:
+      msg: "Hello I am new to {{Course}} but it's deploying wise very powerfull,Duration is {{Duration}}"    
