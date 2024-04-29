@@ -3,7 +3,7 @@
   hosts: localhost
   vars_files:
   - vars.yaml
-  task: 
+  tasks: 
   - name: print information
     ansible.builtin.debug:
       msg: "Hello I am new to {{Course}} but it's deploying wise very powerfull,Duration is {{Duration}}"
