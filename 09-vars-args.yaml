@@ -4,3 +4,8 @@
   - name: get from args
     ansible.builtin.debug:
       msg: "Hello {{PERSON}},Good {{WISHES}}"
+
+
+#Passing values in command line
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 09-vars-args.yaml -e PERSON=RAMESH -e WISHES=Morning
+      
