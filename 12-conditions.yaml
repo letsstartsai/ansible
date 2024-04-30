@@ -7,7 +7,7 @@
     register: USER
     ignore_errors: true
 
-  - name: Print user infrmation
+  - name: Print user information
     ansible.builtin.debug: 
       msg: "User info: {{USER}}"  
 
