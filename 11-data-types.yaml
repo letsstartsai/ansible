@@ -3,13 +3,13 @@
   vars:
     Course: Devops with AWS #String
     Tools: # list
-      - Linux
-      - Shell
-      - Ansible
-      Experience: # map or dictionary
-        DevOps: 3 # number
-        AWS: 2
-        Docker: 1
+    - Linux
+    - Shell
+    - Ansible
+    Experience: # map or dictionary
+      DevOps: 3 # number
+      AWS: 2
+      Docker: 1
       RealProject: true #boolean
   tasks:
     - name: print variables
