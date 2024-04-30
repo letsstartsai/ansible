@@ -8,6 +8,6 @@
       state: "{{ item.state}}"
       state: latest
     loop:
-    - {name: nginx state: 'absent'} #item
+    - {name: 'nginx', state: 'absent'} #item
 
      
