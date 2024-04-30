@@ -9,4 +9,4 @@
     loop:
     - nginx
 
-     msg: " installed nginx"
+     
